@@ -1,7 +1,7 @@
 {
-  "name": "firegram",
+  "name": "firebase-apps",
   "version": "0.1.0",
-  "homepage": "https://jinnn0.github.io/firegram/",
+  "homepage": "https://jinnn0.github.io/firebase-apps/",
   "private": true,
   "dependencies": {
     "@material-ui/core": "^4.11.0",
