@@ -37,7 +37,6 @@ const useStorage = (file) => {
     );
   }, [file]);
 
-  //   return { progress, url, error };
   return [progress, url, error];
 };
 

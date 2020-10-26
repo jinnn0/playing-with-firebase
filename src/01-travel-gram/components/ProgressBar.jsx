@@ -11,10 +11,6 @@ const ProgressBar = ({ file, setFile }) => {
     }
   }, [url, setFile]);
 
-  const style = {
-    width: progress + '%'
-  };
-
   return (
     <motion.div
       className="progress-bar"

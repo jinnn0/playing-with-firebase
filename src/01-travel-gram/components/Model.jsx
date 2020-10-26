@@ -3,7 +3,6 @@ import { motion } from 'framer-motion';
 
 function Model({ selectedImg, setSelectedimg }) {
   const handleClick = (e) => {
-    console.log(e.target);
     if (e.target.classList.contains('backdrop')) {
       setSelectedimg(null);
     }

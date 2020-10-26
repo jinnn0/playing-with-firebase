@@ -3,7 +3,7 @@ import useFirestore from '../hooks/useFirestore';
 import { motion } from 'framer-motion';
 
 const ImgaeGrid = ({ setSelectedimg }) => {
-  const [docs] = useFirestore('user-images');
+  const docs = useFirestore('user-images');
 
   return (
     <div className="img-grid">
